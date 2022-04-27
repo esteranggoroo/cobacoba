@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Siswaaa_DBModelStoreContainer" CdmEntityContainer="Siswaaa_DBEntities">
+    <EntitySetMapping Name="Siswaaa_DB">
+      <EntityTypeMapping TypeName="Siswaaa_DBModel.Siswaaa_DB">
+        <MappingFragment StoreEntitySet="Siswaaa_DB">
+          <ScalarProperty Name="NIM" ColumnName="NIM" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="TanggalLahir" ColumnName="TanggalLahir" />
+          <ScalarProperty Name="JenisKelamin" ColumnName="JenisKelamin" />
+          <ScalarProperty Name="Alamat" ColumnName="Alamat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
